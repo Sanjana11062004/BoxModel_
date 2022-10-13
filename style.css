@@ -1,3 +1,8 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #472a9c;
+}
 .headbox {
   width: 1260px;
   height: 89px;
@@ -9,15 +14,9 @@ h1 {
   padding: 13px 422px 14px 422px;
   font-size: 40px;
   line-height: 48px;
-  line-height: 100%;
   text-align: center;
   width: 416px;
   height: 62px;
-}
-.font {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #472a9c;
 }
 .box1 {
   width: 626px;
@@ -30,7 +29,6 @@ p {
   height: 129px;
   font-size: 106.49px;
   line-height: 129px;
-  line-height: 100%;
   margin: 0%;
 }
 .box2 {
@@ -46,19 +44,19 @@ p {
   display: flex;
   flex-direction: row;
 }
-.style {
+.commonwordsize {
   width: 151px;
   height: 72px;
   font-size: 30px;
   line-height: 100%;
 }
-.box {
+.commonboxsize{
   width: 257px;
   height: 334px;
   margin-top: 71px;
 }
-.color {
-  box-sizing: border-box;
-  background-color: #e0d6ff;
-  border: 14px solid #8666e1;
+.commombtw3box{
+box-sizing: border-box;
+background-color: #e0d6ff;
+border: 14px solid #8666e1;
 }
